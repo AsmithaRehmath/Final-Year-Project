@@ -1,6 +1,6 @@
 # AI Job Recommendation Portal
 
-## Abstract
+# Abstract
 An intelligent system that recommends jobs and courses based on user skills using NLP and cosine similarity.
 
 ## Problem Statement
