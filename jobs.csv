@@ -1,0 +1,101 @@
+job_id,job_title,company_name,address,required_skills,apply_link
+1,ML Engineer,Google,Bangalore,"python,ml,ai",https://careers.google.com
+2,Data Analyst,TCS,Chennai,"python,sql,excel",https://www.tcs.com/careers
+3,Web Developer,Infosys,Pune,"html,css,javascript",https://www.infosys.com/careers
+4,AI Engineer,Microsoft,Hyderabad,"python,deep learning,nlp",https://careers.microsoft.com
+5,Backend Developer,Amazon,Hyderabad,"python,django,api",https://www.amazon.jobs
+6,Cloud Engineer,IBM,Bangalore,"aws,cloud,docker",https://www.ibm.com/in-en/employment
+7,Frontend Developer,Wipro,Mumbai,"html,css,react",https://careers.wipro.com
+8,DevOps Engineer,Accenture,Bangalore,"ci/cd,docker,kubernetes",https://www.accenture.com/in-en/careers
+9,Software Engineer,Cognizant,Chennai,"java,spring,sql",https://careers.cognizant.com
+10,Full Stack Developer,HCL Technologies,Noida,"react,nodejs,mongodb",https://www.hcltech.com/careers
+11,Data Scientist,Capgemini,Pune,"python,ml,statistics",https://www.capgemini.com/careers
+12,Python Developer,Tech Mahindra,Hyderabad,"python,django,rest",https://careers.techmahindra.com
+13,AI Developer,Oracle,Bangalore,"python,ai,ml",https://www.oracle.com/careers
+14,System Engineer,Zoho,Chennai,"linux,networking,sql",https://careers.zoho.com
+15,App Developer,Flipkart,Bangalore,"flutter,android,ios",https://www.flipkartcareers.com
+16,Cloud Architect,Google,Hyderabad,"gcp,cloud,architecture",https://careers.google.com
+17,Data Engineer,Amazon,Chennai,"python,spark,hadoop",https://www.amazon.jobs
+18,Security Analyst,TCS,Mumbai,"cybersecurity,networking,linux",https://www.tcs.com/careers
+19,React Developer,Infosys,Hyderabad,"react,javascript,css",https://www.infosys.com/careers
+20,Java Developer,Wipro,Pune,"java,spring,hibernate",https://careers.wipro.com
+21,UI/UX Designer,Cognizant,Bangalore,"figma,design,ui",https://careers.cognizant.com
+22,Database Administrator,IBM,Chennai,"sql,oracle,database",https://www.ibm.com/in-en/employment
+23,Automation Tester,Accenture,Hyderabad,"selenium,java,testing",https://www.accenture.com/in-en/careers
+24,Network Engineer,HCL Technologies,Mumbai,"networking,ccna,security",https://www.hcltech.com/careers
+25,Cloud Support Engineer,Microsoft,Bangalore,"azure,cloud,support",https://careers.microsoft.com
+26,AI Researcher,Google,Pune,"ai,deep learning,research",https://careers.google.com
+27,Big Data Engineer,Capgemini,Hyderabad,"hadoop,spark,python",https://www.capgemini.com/careers
+28,Mobile Developer,Tech Mahindra,Bangalore,"android,kotlin,api",https://careers.techmahindra.com
+29,DevOps Engineer,Amazon,Pune,"docker,kubernetes,aws",https://www.amazon.jobs
+30,Software Tester,TCS,Hyderabad,"manual testing,automation",https://www.tcs.com/careers
+31,ML Engineer,Infosys,Bangalore,"python,ml,ai",https://www.infosys.com/careers
+32,Data Analyst,Wipro,Chennai,"excel,sql,powerbi",https://careers.wipro.com
+33,Frontend Developer,Cognizant,Pune,"html,css,react",https://careers.cognizant.com
+34,Backend Developer,HCL Technologies,Bangalore,"nodejs,mongodb,api",https://www.hcltech.com/careers
+35,Cloud Engineer,IBM,Hyderabad,"aws,cloud,linux",https://www.ibm.com/in-en/employment
+36,Full Stack Developer,Accenture,Chennai,"react,nodejs,sql",https://www.accenture.com/in-en/careers
+37,AI Engineer,Microsoft,Pune,"python,ai,nlp",https://careers.microsoft.com
+38,Data Engineer,Google,Hyderabad,"python,spark,bigquery",https://careers.google.com
+39,Java Developer,Capgemini,Bangalore,"java,spring,sql",https://www.capgemini.com/careers
+40,Python Developer,Tech Mahindra,Chennai,"python,django",https://careers.techmahindra.com
+41,Software Engineer,Oracle,Hyderabad,"java,cloud,api",https://www.oracle.com/careers
+42,Cloud Developer,Zoho,Bangalore,"cloud,api,python",https://careers.zoho.com
+43,React Developer,Flipkart,Chennai,"react,redux,javascript",https://www.flipkartcareers.com
+44,DevOps Engineer,Amazon,Mumbai,"docker,aws,kubernetes",https://www.amazon.jobs
+45,Data Scientist,TCS,Pune,"python,ml,statistics",https://www.tcs.com/careers
+46,AI Developer,Wipro,Bangalore,"ai,python,ml",https://careers.wipro.com
+47,System Engineer,Cognizant,Hyderabad,"linux,sql",https://careers.cognizant.com
+48,App Developer,Infosys,Chennai,"flutter,api",https://www.infosys.com/careers
+49,Cloud Architect,IBM,Pune,"aws,cloud,security",https://www.ibm.com/in-en/employment
+50,Security Engineer,Accenture,Bangalore,"cybersecurity,networking",https://www.accenture.com/in-en/careers
+51,ML Engineer,Capgemini,Chennai,"python,ml",https://www.capgemini.com/careers
+52,Data Analyst,HCL Technologies,Bangalore,"excel,sql",https://www.hcltech.com/careers
+53,Backend Developer,Microsoft,Mumbai,"python,api",https://careers.microsoft.com
+54,Frontend Developer,Google,Chennai,"react,css",https://careers.google.com
+55,Software Engineer,Amazon,Bangalore,"java,cloud",https://www.amazon.jobs
+56,Cloud Engineer,TCS,Hyderabad,"aws,linux",https://www.tcs.com/careers
+57,DevOps Engineer,Infosys,Pune,"docker,ci/cd",https://www.infosys.com/careers
+58,AI Engineer,Wipro,Hyderabad,"deep learning,python",https://careers.wipro.com
+59,Data Engineer,Cognizant,Bangalore,"spark,python",https://careers.cognizant.com
+60,Java Developer,Accenture,Chennai,"java,spring",https://www.accenture.com/in-en/careers
+61,Full Stack Developer,IBM,Pune,"react,nodejs",https://www.ibm.com/in-en/employment
+62,Python Developer,Google,Hyderabad,"python,django",https://careers.google.com
+63,Cloud Architect,Amazon,Bangalore,"aws,architecture",https://www.amazon.jobs
+64,Security Analyst,Infosys,Mumbai,"cybersecurity",https://www.infosys.com/careers
+65,Data Scientist,Microsoft,Chennai,"ml,python",https://careers.microsoft.com
+66,DevOps Engineer,TCS,Bangalore,"docker,kubernetes",https://www.tcs.com/careers
+67,Backend Developer,Wipro,Pune,"nodejs,mongodb",https://careers.wipro.com
+68,Frontend Developer,Capgemini,Hyderabad,"react,javascript",https://www.capgemini.com/careers
+69,Software Engineer,Cognizant,Chennai,"java,sql",https://careers.cognizant.com
+70,AI Developer,Oracle,Bangalore,"ai,ml",https://www.oracle.com/careers
+71,Cloud Engineer,Tech Mahindra,Pune,"aws,cloud",https://careers.techmahindra.com
+72,Data Analyst,IBM,Mumbai,"sql,excel",https://www.ibm.com/in-en/employment
+73,Java Developer,Amazon,Hyderabad,"java,spring",https://www.amazon.jobs
+74,System Engineer,Infosys,Bangalore,"linux,networking",https://www.infosys.com/careers
+75,ML Engineer,Accenture,Chennai,"ml,python",https://www.accenture.com/in-en/careers
+76,Mechanical Engineer,Tata Motors,Pune,"mechanical,autocad,production",https://careers.tatamotors.com
+77,Production Engineer,TVS Motor Company,Hosur,"manufacturing,quality control",https://www.tvsmotor.com/careers
+78,Quality Engineer,Ashok Leyland,Chennai,"quality,inspection",https://www.ashokleyland.com/careers
+79,Electrical Engineer,Larsen & Toubro,Chennai,"electrical,maintenance",https://www.larsentoubro.com/careers
+80,Civil Engineer,Shapoorji Pallonji,Mumbai,"civil,construction",https://www.shapoorjipallonji.com/careers
+81,Design Engineer,Hero MotoCorp,Gurgaon,"design,mechanical",https://www.heromotocorp.com/en-in/careers
+82,Manufacturing Engineer,Bosch,Bangalore,"manufacturing,production",https://www.bosch.in/careers
+83,Plant Supervisor,JSW Steel,Bellary,"production,plant operations",https://www.jsw.in/careers
+84,Maintenance Engineer,SAIL,Bhilai,"maintenance,mechanical",https://www.sail.co.in/en/careers
+85,Automobile Engineer,Mahindra & Mahindra,Nashik,"automobile,design",https://jobs.mahindracareers.com
+86,Electrical Technician,BHEL,Trichy,"electrical,maintenance",https://careers.bhel.in
+87,Site Engineer,DLF,Gurgaon,"construction,site management",https://www.dlf.in/careers
+88,Production Manager,ITC Limited,Kolkata,"production,operations",https://www.itcportal.com/careers
+89,Factory Supervisor,Dabur,Noida,"manufacturing,supervision",https://www.dabur.com/careers
+90,Supply Chain Executive,Hindustan Unilever,Mumbai,"supply chain,logistics",https://careers.unilever.com
+91,Operations Manager,Adani Group,Ahmedabad,"operations,management",https://careers.adani.com
+92,Mechanical Supervisor,Tata Steel,Jamshedpur,"mechanical,plant",https://www.tatasteel.com/careers
+93,Production Engineer,Bajaj Auto,Pune,"manufacturing,quality",https://www.bajajauto.com/careers
+94,Maintenance Supervisor,Maruti Suzuki,Gurgaon,"maintenance,plant",https://www.marutisuzuki.com/corporate/careers
+95,Quality Control Officer,Nestle,Chandigarh,"quality,food safety",https://www.nestle.in/jobs
+96,Warehouse Manager,Flipkart Logistics,Bangalore,"warehouse,logistics",https://www.flipkartcareers.com
+97,Plant Engineer,UltraTech Cement,Jaipur,"plant,production",https://www.ultratechcement.com/careers
+98,Electrical Engineer,Siemens,Mumbai,"electrical,automation",https://new.siemens.com/in/en/company/jobs.html
+99,Manufacturing Supervisor,Godrej & Boyce,Mumbai,"manufacturing,operations",https://www.godrej.com/careers
+100,Production Executive,Amul,Anand,"production,dairy",https://careers.amul.com

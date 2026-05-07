@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skill-Based Job Recommendation</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #4e73df, #1cc88a);
+            min-height: 100vh;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .box {
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+        label {
+            font-weight: bold;
+            color: #444;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 65%;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+            font-size: 14px;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #4e73df;
+            box-shadow: 0 0 5px rgba(78,115,223,0.5);
+        }
+
+        button {
+            padding: 10px 18px;
+            background: linear-gradient(45deg, #4e73df, #224abe);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            background: linear-gradient(45deg, #2e59d9, #1b3e9f);
+            transform: translateY(-2px);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th {
+            background: #4e73df;
+            color: white;
+            padding: 12px;
+            font-size: 14px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background: #f2f2f2;
+        }
+
+        a.apply-btn {
+            text-decoration: none;
+            padding: 6px 12px;
+            background: #1cc88a;
+            color: white;
+            border-radius: 6px;
+            font-size: 13px;
+            transition: 0.3s;
+        }
+
+        a.apply-btn:hover {
+            background: #17a673;
+        }
+
+        .no-result {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #e74a3b;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 10px 18px;
+            background: linear-gradient(45deg, #ff6b6b, #e74a3b);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background: linear-gradient(45deg, #c0392b, #a93226);
+            transform: translateY(-2px);
+        }
+
+        .center {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box">
+        <h2>🔍 Skill-Based Job Recommendation</h2>
+
+        <form method="post" class="center">
+            <label>Enter your skill:</label><br><br>
+            <input type="text" name="skill" placeholder="e.g., Python, Java, SQL" required>
+            <button type="submit">Search Jobs</button>
+        </form>
+
+        {% if results is not none and results|length > 0 %}
+        <h3 style="margin-top:30px;">🏢 Recommended Jobs</h3>
+        <table>
+            <tr>
+                <th>Job Title</th>
+                <th>Company Name</th>
+                <th>Address</th>
+                <th>Apply</th>
+            </tr>
+            {% for _, row in results.iterrows() %}
+            <tr>
+                <td>{{ row.job_title }}</td>
+                <td>{{ row.company_name }}</td>
+                <td>{{ row.address }}</td>
+                <td>
+                    <a href="{{ row.apply_link }}" target="_blank" class="apply-btn">
+                        Apply
+                    </a>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        {% elif results is not none %}
+            <p class="no-result">❌ No jobs found for this skill.</p>
+        {% endif %}
+
+        <div class="center">
+            <a href="/dashboard" class="back-btn">⬅ Back to Dashboard</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job to Company Recommendation</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f6f8;
+            padding: 40px;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            width: 60%;
+            border-radius: 8px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>🔍 Job → Company Recommendation</h2>
+
+    <form method="post">
+        <label>Enter Job Title:</label><br><br>
+        <input type="text" name="job_title" placeholder="e.g. Data Scientist" required>
+        <br><br>
+        <button type="submit">Get Companies</button>
+    </form>
+
+    {% if results is not none and results|length > 0 %}
+    <h3>🏢 Hiring Companies</h3>
+    <table>
+        <tr>
+            <th>Company Name</th>
+            <th>Location</th>
+            <th>Apply</th>
+        </tr>
+        {% for _, row in results.iterrows() %}
+        <tr>
+            <td>{{ row.company_name }}</td>
+            <td>{{ row.location }}</td>
+            <td>
+                <a href="{{ row.apply_link }}" target="_blank">Apply</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+</div>
+
+<br>
+<a href="/">⬅ Back to Dashboard</a>
+
+</body>
+</html>

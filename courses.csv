@@ -1,0 +1,51 @@
+job_role,course_name,platform,course_link
+python,Python for Everybody,Coursera,https://www.coursera.org/specializations/python
+python,Complete Python Bootcamp,Udemy,https://www.udemy.com/course/complete-python-bootcamp/
+python,Python Programming,NPTEL,https://nptel.ac.in/courses/106/106/106106145/
+python,Python Basics,edX,https://www.edx.org/learn/python
+python,Automate the Boring Stuff with Python,Udemy,https://www.udemy.com/course/automate/
+ml,Machine Learning,Coursera,https://www.coursera.org/learn/machine-learning
+ml,Machine Learning,NPTEL,https://nptel.ac.in/courses/106/106/106106139/
+ml,Intro to Machine Learning,Udacity,https://www.udacity.com/course/intro-to-machine-learning--ud120
+ml,Machine Learning with Python,edX,https://www.edx.org/learn/machine-learning
+ml,Applied Machine Learning,Coursera,https://www.coursera.org/specializations/machine-learning-introduction
+sql,SQL for Data Science,Coursera,https://www.coursera.org/learn/sql-for-data-science
+sql,The Complete SQL Bootcamp,Udemy,https://www.udemy.com/course/the-complete-sql-bootcamp/
+sql,Databases and SQL,NPTEL,https://nptel.ac.in/courses/106/105/106105175/
+sql,SQL Basics,HackerRank,https://www.hackerrank.com/domains/sql
+sql,Advanced SQL for Developers,Udemy,https://www.udemy.com/course/advanced-sql/
+data science,Data Science Specialization,Coursera,https://www.coursera.org/specializations/jhu-data-science
+data science,Data Science for Engineers,NPTEL,https://nptel.ac.in/courses/106/106/106106179/
+data science,Data Science Bootcamp,Udemy,https://www.udemy.com/course/data-science-and-machine-learning-bootcamp-with-r/
+data science,Professional Data Science Certificate,edX,https://www.edx.org/professional-certificate/harvardx-data-science
+data science,Intro to Data Science,Udacity,https://www.udacity.com/course/introduction-to-data-science--cd0017
+web development,Full Stack Web Development,Coursera,https://www.coursera.org/specializations/full-stack-react
+web development,Web Development Bootcamp,Udemy,https://www.udemy.com/course/the-web-developer-bootcamp/
+web development,Front End Web Developer,Udacity,https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011
+web development,HTML CSS JavaScript,NPTEL,https://nptel.ac.in/courses/106/105/106105084/
+web development,Web Programming with JavaScript,edX,https://www.edx.org/learn/javascript
+cloud,AWS Cloud Practitioner Essentials,AWS,https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/
+cloud,Google Cloud Fundamentals,Coursera,https://www.coursera.org/learn/gcp-fundamentals
+cloud,Microsoft Azure Fundamentals,Microsoft Learn,https://learn.microsoft.com/en-us/training/azure/
+cloud,Cloud Computing,NPTEL,https://nptel.ac.in/courses/106/105/106105167/
+cloud,AWS Certified Solutions Architect,Udemy,https://www.udemy.com/course/aws-certified-solutions-architect-associate/
+devops,DevOps on AWS,Coursera,https://www.coursera.org/specializations/aws-devops
+devops,Docker and Kubernetes,Udemy,https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/
+devops,DevOps Engineering,NPTEL,https://nptel.ac.in/courses/106/105/106105190/
+devops,CI/CD Pipelines with Jenkins,Udemy,https://www.udemy.com/course/jenkins-from-zero-to-hero/
+devops,Introduction to DevOps,edX,https://www.edx.org/learn/devops
+ai,AI For Everyone,Coursera,https://www.coursera.org/learn/ai-for-everyone
+ai,Deep Learning Specialization,Coursera,https://www.coursera.org/specializations/deep-learning
+ai,Artificial Intelligence,NPTEL,https://nptel.ac.in/courses/106/105/106105077/
+ai,AI Programming with Python,Udacity,https://www.udacity.com/course/ai-programming-python-nanodegree--nd089
+ai,Intro to Artificial Intelligence,edX,https://www.edx.org/learn/artificial-intelligence
+cybersecurity,Introduction to Cyber Security,Coursera,https://www.coursera.org/learn/intro-cyber-security
+cybersecurity,Ethical Hacking,Udemy,https://www.udemy.com/course/learn-ethical-hacking-from-scratch/
+cybersecurity,Cyber Security,NPTEL,https://nptel.ac.in/courses/106/105/106105217/
+cybersecurity,CompTIA Security+ Prep,Udemy,https://www.udemy.com/course/securityplus/
+cybersecurity,Cybersecurity Fundamentals,edX,https://www.edx.org/learn/cybersecurity
+java,Java Programming,Coursera,https://www.coursera.org/specializations/java-programming
+java,Complete Java Developer Course,Udemy,https://www.udemy.com/course/java-the-complete-java-developer-course/
+java,Programming in Java,NPTEL,https://nptel.ac.in/courses/106/105/106105191/
+java,Java Microservices,Udemy,https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud/
+java,Object Oriented Programming in Java,edX,https://www.edx.org/learn/java
